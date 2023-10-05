@@ -2,6 +2,7 @@ body {
   font-family: "Karla", sans-serif;
   background-color: hsl(204, 43%, 93%);
 }
+
 .App h1 {
   color: hsl(179, 62%, 43%);
   margin-bottom: 30px;
@@ -10,10 +11,7 @@ body {
   color: hsl(71, 73%, 54%);
   margin-bottom: 15px;
 }
-.App h3 {
-  color: #fff;
-  font-size: 20px;
-}
+
 .App p {
   opacity: 0.6;
   line-height: 1.5;
@@ -27,10 +25,15 @@ body {
   transition: all 200ms ease;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
   color: hsl(0, 0%, 100%);
+  position: relative;
+  left: -40px;
 }
 .App button:hover {
   background-color: #fff;
   color: #000;
+}
+.row {
+  margin: 0 auto;
 }
 .row p {
   color: #fff;
@@ -38,29 +41,62 @@ body {
   font-weight: lighter;
 }
 .container {
-  border-radius: 20px;
   margin: 150px auto;
   width: 800px;
 }
 .community {
   background-color: #ffff;
-  padding: 60px;
+  padding: 50px;
 }
 .subscription {
   background-color: hsl(179, 62%, 43%);
   text-align: center;
+  padding: 20px;
+  padding-right: 10px;
 }
-
+.subscription h3 {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  left: -50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.subscription p {
+  position: relative;
+  left: -40px;
+}
 .contact {
-  background-color: hsl(218, 22%, 67%);
+  background-color: #5ec5c2;
+  padding: 20px;
+}
+.contact h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  right: -25px;
+}
+.contact p {
+  position: relative;
+  right: -25px;
+  line-height: 1.5;
+  font-size: 15px;
+  padding: 5px;
 }
 .price {
   font-weight: bold;
   font-size: 30px;
   color: #fff;
+  position: relative;
+  left: -80px;
 }
 .monthly {
   color: #fff;
   opacity: 0.6;
   font-weight: lighter;
+  position: relative;
+  left: -75px;
+  top: -5px;
 }

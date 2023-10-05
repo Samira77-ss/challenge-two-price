@@ -28,7 +28,7 @@ export default function App() {
             <h3>Why us</h3>
             <p>
               Tutorials by industry experts Peer & expert code review Coding
-              exercises Access to our GitHub repos Community forum Flashcard
+              excercises Access to our GitHub repos Community forum Flashcard
               decks New videos every week
             </p>
           </div>
