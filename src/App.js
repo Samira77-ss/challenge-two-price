@@ -36,9 +36,10 @@ export default function App() {
         <footer>
           This page was coded by Samira Seyfi{" "}
           <a
-            href="https://github.com/Samira77-ss/Challenge1"
+            href="https://github.com/Samira77-ss/challenge-two-price"
             target="_blank"
             alt="GithHub Profile"
+            rel="noreferrer"
           >
             open-source-code on GitHub
           </a>
@@ -47,6 +48,7 @@ export default function App() {
             href="https://calm-khapse-b18156.netlify.app/"
             alt="Netlify link"
             target="_blank"
+            rel="noreferrer"
           >
             Netlify
           </a>
