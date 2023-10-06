@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <div className="container">
         <div className="community">
           {" "}
@@ -22,7 +22,7 @@ export default function App() {
             <span className="price">$29 </span> {""}
             <span className="monthly"> per month</span>
             <p>Full access for less than $1 a day</p>
-            <button className="btn ">Sign Up</button>
+            <button className="btn">Sign Up</button>
           </div>
           <div className="col-6 contact">
             <h3>Why us</h3>

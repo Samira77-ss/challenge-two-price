@@ -35,18 +35,20 @@ body {
 .row {
   margin: 0 auto;
 }
+
 .row p {
   color: #fff;
   opacity: 1;
   font-weight: lighter;
 }
 .container {
-  margin: 150px auto;
+  margin: 100px auto;
   width: 800px;
 }
+
 .community {
   background-color: #ffff;
-  padding: 50px;
+  padding: 40px;
 }
 .subscription {
   background-color: hsl(179, 62%, 43%);
@@ -99,4 +101,24 @@ body {
   position: relative;
   left: -75px;
   top: -5px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .subscription,
+  .contact {
+    padding: 15px;
+  }
+  .App h2 {
+    font-size: 15px;
+  }
 }
