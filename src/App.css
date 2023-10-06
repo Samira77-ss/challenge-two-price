@@ -28,6 +28,10 @@ body {
   position: relative;
   left: -40px;
 }
+.App footer {
+  text-align: center;
+  margin: 20px auto;
+}
 .App button:hover {
   background-color: #fff;
   color: #000;
