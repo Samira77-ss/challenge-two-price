@@ -45,7 +45,7 @@ export default function App() {
           </a>
           , and hosted on{" "}
           <a
-            href="https://calm-khapse-b18156.netlify.app/"
+            href="https://phenomenal-quokka-efe612.netlify.app/"
             alt="Netlify link"
             target="_blank"
             rel="noreferrer"
